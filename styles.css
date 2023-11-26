@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+/* Initial state of the search component */
+.search {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+/* Active state of the search component */
+.search.active {
+  border-color: #007bff;
+}
+
+.input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
